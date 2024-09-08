@@ -1,0 +1,17 @@
+/* Define the keyframes for the fade-in from top animation */
+@keyframes fadeInFromTop {
+    from {
+      opacity: 0;
+      transform: translateY(-20px); /* Move element slightly up */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Move element to its original position */
+    }
+  }
+  
+  /* Apply the fade-in from top animation to the desired elements */
+  .fade-in-top {
+    animation: fadeInFromTop 2s ease-in-out;
+  }
+  
