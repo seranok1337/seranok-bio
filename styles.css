@@ -15,3 +15,49 @@
     animation: fadeInFromTop 2s ease-in-out;
   }
   
+  .buttonshakey {
+
+    animation: modalOpen 2s
+}
+
+
+@keyframes modalOpen {
+  0% {
+		transform: scale(.5);
+		opacity: 0;
+	}
+    20% {
+		opacity: 1;
+	}
+    50% {
+        transform: scale(1.05)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+.hover-effect {
+  display: inline-block; /* Make the div an inline-block for better control */
+  transition: transform 0.3s ease; /* Smooth transition for the transformation */
+}
+
+.hover-effect:hover {
+  transform: translateY(-10px); /* Move the element up by 10 pixels */
+}
+
+.spin-on-click {
+  cursor: pointer; /* Show pointer cursor on hover */
+  transition: transform 0.5s ease; /* Smooth transition for spinning */
+}
+
+.spin-on-click.spin {
+  transform: rotate(360deg); /* Spin the image */
+}
+
+.grid-container {
+  display: grid;
+  justify-content: end; /* Align items to the right */
+}
+

@@ -63,22 +63,26 @@
 
   </head>
   <body class="background-imagio">
-    <div class="text-white fade-in-top">
-        <div class="container text-center my-5 fade-in-top">
+    <div class="text-white buttonshakey">
+        <div class="container text-center my-5 buttonshakey">
             <div class="row">
                 <div class="col-lg-6 col-md-6 mx-auto">
-                    <img class="rounded-img fade-in-up" src="moris.webp" alt="moris">
-                    <h1 class="">seranok</h1>
+                    <img class="rounded-img buttonshakey spin-on-click img-fluid" src="moris.webp" alt="moris" id="spinImage">
+                    <audio id="clickSound" src="miau.mp3"></audio>
+                    <h1 class="text-center" id="typed-text"></h1>
                     <p>hi, im seranok, i started learning web development recently, i currently have 2 projects, with one of them being this one, and my own gaming server hosting called cheapflare, for which you can find the link in the socials below i am also into the hobby of custom mechanical keyboards, as you might have already noticed my favorite keycaps set is gmk metropolis. my dream board is a navy wkl neo80 with mx blacks and gmk metropolis, and the themed cable for it by WIRED IN.</p>
                     <div class="logos"></div>
                         <a href="https://github.com/seranok1337" target="_blank">
-                            <img src="githubkitty (1).png" alt="GitHub" class="metropolisthemedthing">
+                            <img src="githubkitty (1).png" alt="GitHub" class="metropolisthemedthing hover-effect" id="mysteriousHover">
+                            <audio id="clickSound2" src="mysterious.mp3"></audio>
                         </a>
                         <a href="https://t.me/metamorphosilt" target="_blank">
-                            <img src="telegram.png" alt="Telegram" class="metropolisthemedthing">
+                            <img src="telegram.png" alt="Telegram" class="metropolisthemedthing hover-effect" id="mysteriousHover">
+                            <audio id="clickSound2" src="mysterious.mp3"></audio>
                         </a>
                         <a href="https://land.cheapflare.pp.ua" target="_blank">
-                            <img src="image (1).png" alt="cheapflare" class="metropolisthemedthing">
+                            <img src="image (1).png" alt="cheapflare" class="metropolisthemedthing hover-effect" id="mysteriousHover">
+                            <audio id="clickSound2" src="mysterious.mp3"></audio>
                         </a>
                     </div>
                     </div>
@@ -119,7 +123,7 @@
             }
         }
     </script>
-
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
